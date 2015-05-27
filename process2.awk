@@ -1,3 +1,10 @@
+#  Author: Shantanu Chaudhary
+#  Email : shantanuchaudhary24@gmail.com
+#  This script is used to filter timestamp,
+#  congestion window size, slow start threshold,
+#  MSS from raw CSV output file from tcp_probe
+#  module
+
 BEGIN{
 FS = " ";
     }

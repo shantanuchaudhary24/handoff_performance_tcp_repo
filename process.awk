@@ -1,3 +1,9 @@
+#  Author: Shantanu Chaudhary
+#  Email : shantanuchaudhary24@gmail.com
+#  This script is used to filter RSSI, cellID,
+#  timestamp, Mode from raw CSV file from RFSignal
+#  tracker application
+
 BEGIN{
     FS=","
 }
