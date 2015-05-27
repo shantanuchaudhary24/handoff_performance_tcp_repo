@@ -1,0 +1,37 @@
+################################################################################################
+
+					     README
+
+################################################################################################
+
+This repository contains raw data as well as results (graphs and plots) which were obtained from
+the analysis of TCP (Variants Cubic, Westwood, Veno) during handoff phase in real mobile networks
+The test was done for 3G connections over approximately 9 Sq. KM of area. The results show that
+TCP-Westwood and TCP-Veno, that have been optimised for wireless networks outperform TCP-Cubic.
+
+################################################################################################
+
+Collaborators:
+Shantanu Chaudhary (shantanuchaudhary24@gmail.com)
+
+
+################################################################################################
+
+Folder hierarchy:
+Trip_1		: Data and results gathered from first RF Testing Drive
+Trip_2		: Data and results gathered from second RF Testing Drive
+process.awk	: AWK script to filter RF Signal Tracker app raw CSV data
+process2.awk	: AWK script to filter TCP_PROBE module raw CSV data
+Reports		: PDFs describing project approach, timeline, observations, challenges etc.
+
+################################################################################################
+
+Dependencies:
+-> Refer Documentation
+
+################################################################################################
+
+Setting up project:
+-> Clone the repository
+
+################################################################################################
